@@ -44,7 +44,8 @@ p{
 /* header */
 .header{
     position:absolute;
-    z-index: 5;
+    z-index: 999;
+    position:fixed;
 }
 .header .container{
     padding: 0;
@@ -115,24 +116,28 @@ p{
     top:33px;
     right:0;
 }
-
-.header .navbar .collapse ul{
-    border-radius: 5px; 
-}
-.header .navbar .collapse ul li a{
-     color:#060606;
-    /* font-weight:500; */
-    font-size:16px; 
-    transition: all 0.5s; 
-    /* font-family: var(--font-family) ; */
-} 
-.header .navbar .collapse ul li.active a{
-    color: #fb811e !important;
-}
+/* edit */
 .header .navbar .collapse ul a:hover {
     color: #fb811e !important;
 }
+.collapsing{
+    transition: 0.5s ease-out;
+}
 
+.header ul {
+    border-radius:5px;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+}
+.header ul a{
+    color: #060606 !important;;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size:16px; 
+    transition: all 0.5s; 
+}
+.header ul li.active a {
+    color: #fb811e !important;;
+}
 /* carousel-cap */
 .carousel-cap .container-fluid{
     padding:0;
