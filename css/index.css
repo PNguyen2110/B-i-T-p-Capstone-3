@@ -52,9 +52,16 @@ p {
 }
 
 /* header */
+<<<<<<< HEAD
 .header {
     position: absolute;
     z-index: 5;
+=======
+.header{
+    position:absolute;
+    z-index: 999;
+    position:fixed;
+>>>>>>> master
 }
 
 .header .container {
@@ -134,6 +141,7 @@ p {
     top: 33px;
     right: 0;
 }
+<<<<<<< HEAD
 
 .header .navbar .collapse ul {
     border-radius: 5px;
@@ -151,10 +159,30 @@ p {
     color: #fb811e !important;
 }
 
+=======
+/* edit */
+>>>>>>> master
 .header .navbar .collapse ul a:hover {
     color: #fb811e !important;
 }
+.collapsing{
+    transition: 0.5s ease-out;
+}
 
+.header ul {
+    border-radius:5px;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+}
+.header ul a{
+    color: #060606 !important;;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size:16px; 
+    transition: all 0.5s; 
+}
+.header ul li.active a {
+    color: #fb811e !important;;
+}
 /* carousel-cap */
 .carousel-cap .container-fluid {
     padding: 0;
