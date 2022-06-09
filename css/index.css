@@ -52,16 +52,10 @@ p {
 }
 
 /* header */
-<<<<<<< HEAD
-.header {
-    position: absolute;
-    z-index: 5;
-=======
 .header{
     position:absolute;
     z-index: 999;
     position:fixed;
->>>>>>> master
 }
 
 .header .container {
@@ -141,27 +135,7 @@ p {
     top: 33px;
     right: 0;
 }
-<<<<<<< HEAD
-
-.header .navbar .collapse ul {
-    border-radius: 5px;
-}
-
-.header .navbar .collapse ul li a {
-    color: #060606;
-    /* font-weight:500; */
-    font-size: 16px;
-    transition: all 0.5s;
-    /* font-family: var(--font-family) ; */
-}
-
-.header .navbar .collapse ul li.active a {
-    color: #fb811e !important;
-}
-
-=======
 /* edit */
->>>>>>> master
 .header .navbar .collapse ul a:hover {
     color: #fb811e !important;
 }
