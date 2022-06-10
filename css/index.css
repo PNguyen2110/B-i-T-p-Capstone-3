@@ -931,10 +931,17 @@ ul {
         width: 100%;
     }
 
-    /* footer */
-    .footer .order-1 .subscribe button {
-        width: 30%;
+    h5.small-title {
+        font-size: 20px;
     }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    /* footer */
+    .footer .footer-main h3 {
+        font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1010,18 +1017,16 @@ ul {
         margin-top: 0;
     }
 
-    .product .no-gutters .btn {
-        /* margin-top: 0 !important; */
+    h5 {
+        font-size: 18px;
     }
 
-    .product .no-gutters h3 {
+    h3 {
         font-size: 32px;
     }
 
-    .product .no-gutters p {
-        margin-bottom: 0;
-        font-family: 'Source Sans Pro';
-    }
+    .product p {
+        font-size: 16px;
 }
 
 /* 3 probs
