@@ -791,6 +791,52 @@ ul {
     transition: all 0.5s;
 }
 
+/* back to top */
+.cd-top {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #009f4d;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cd-top:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.85;
+    transition: all 0.5s;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top--fade-out {
+    opacity: 1;
+}
+
+.fa.fa-level-up {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
 /* responsive */
 @media screen and (max-width:991.98px) {
 
@@ -979,6 +1025,4 @@ ul {
 
 /* 3 probs
     - need some tips on gallery library
-    - can't attach shiny hover effect
-    - 768px responsive fail at 1 point
 */
