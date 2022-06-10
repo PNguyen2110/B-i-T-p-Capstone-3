@@ -935,6 +935,19 @@ ul {
     .column .gallery_effect figure .img-fluid {
         width: 100%;
     }
+
+    h5.small-title {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    /* footer */
+    .footer .footer-main h3 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1008,6 +1021,18 @@ ul {
     /* Products */
     .product .gallery_effect a {
         margin-top: 0;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .product p {
+        font-size: 16px;
     }
 }
 

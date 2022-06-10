@@ -418,7 +418,7 @@ p {
 
 .experience .detail .bottom h5 {
     font-size: 24px;
-    color: #060606;
+    color: #fdfffc;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -975,6 +975,17 @@ ul {
     .column .gallery_effect figure .img-fluid {
         width: 100%;
     }
+    h5.small-title {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+
+    /* footer */
+    .footer .footer-main h3 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -990,7 +1001,7 @@ ul {
     }
 
     .carousel-cap .row .left {
-        background-color: #fff;
+        background-color: #222;
         border-radius: 8px;
         padding: 3rem 2rem 2rem 4rem;
         max-width: 90%;
@@ -1048,6 +1059,15 @@ ul {
     /* Products */
     .product .gallery_effect a {
         margin-top: 0;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    .product p {
+        font-size: 16px;
     }
 }
 
