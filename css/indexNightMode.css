@@ -56,6 +56,11 @@ p {
     color: #fff;
 }
 
+/* .nav-right i{
+    transition: all 0.5s;
+    color: #fb811e;
+} */
+
 /* header */
 .header {
     position: absolute;
@@ -472,7 +477,7 @@ p {
 }
 
 .services .grid-services .grid-item a:hover {
-    border: 1px solid #eee;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .services .grid-services .grid-item h4 {
