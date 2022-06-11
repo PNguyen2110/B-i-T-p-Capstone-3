@@ -586,12 +586,13 @@ h5.gall-text {
             rgba(255, 255, 255, 0) 0%,
             rgba(255, 255, 255, 0.3) 100%);
     transform: skewX(-17deg);
-    transition: all 0.75s;
+    /* transition: all 0.75s; */
     z-index: 99;
 }
 
 .product .gallery_grids .gallery-img-grid .gallery_effect:hover::before {
     left: 125%;
+    transition: all 0.75s;
 
 }
 
@@ -943,6 +944,9 @@ ul {
     .footer .footer-main h3 {
         font-size: 16px;
     }
+    .footer .FooterSubscribe button{
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1027,8 +1031,15 @@ ul {
     }
 
     .product p {
-        font-size: 16px;
+        font-size: 17px;
     }
+    /* feedback */
+    .feedback blockquote q{
+        font-size:17px;
+        font-family: 'Source Sans Pro';
+    }
+    /* footer */
+    
 }
 
 /* 3 probs
